@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap');
+body{
+    background-image:url("https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif");
+    align-items: center;
+}
+
+@keyframes blink-text{
+    to {
+        visibility: hidden;
+    }
+}
+
+.main-title{
+    font-size: 6.5rem;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 5px auto;
+    font-family: 'Tourney', cursive;
+    color:floralwhite;
+    animation: blink-text 0.5s steps(5, start) 3; 
+}
+
+.intro{
+    font-size: 1.78rem;
+    text-align: center;
+    color: floralwhite;
+}
+
+#wrapper1{
+    margin: 2%;
+    padding: 4%;
+    content: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#wrapper{
+    background-color:#141E61 ;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    content: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#reloadbtn {
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    background-color: #de6e66;
+    box-shadow: 4px 9px #4C4C6D;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: monospace;
+    padding: 25px 25px;
+    margin: 5%;
+}
+
+#reloadbtn:hover {
+    background-color: #a51f1f;
+}
+
+#reloadbtn:active{
+    background-color: #a51f1f;
+    box-shadow: 0 5px #2C2E43;
+    transform: translateY(4px);
+}
+
+@media screen and (max-width : 576px){
+    .main-title{
+        font-size: 5rem;
+    }
+}

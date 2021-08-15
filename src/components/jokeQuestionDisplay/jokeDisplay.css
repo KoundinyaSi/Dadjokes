@@ -1,0 +1,12 @@
+#quesDisplay{
+    color : floralwhite;
+    padding: 1.5%;
+    font-size: 3rem;
+    font-family: monospace;
+}
+
+@media screen and (max-width : 576px){
+    #quesDisplay{
+        font-size: 2rem;
+    }
+}

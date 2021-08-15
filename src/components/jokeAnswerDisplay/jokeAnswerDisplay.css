@@ -1,0 +1,39 @@
+#ansDisplay{
+    color : floralwhite;
+    padding: 1.5%;
+    margin-top: 3%;
+    border-top: 1px dashed #4C4C6D;
+    font-size: 3rem;
+    font-family: monospace;
+}
+
+
+#ansbtn{
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    background-color: #66DE93;
+    box-shadow: 4px 9px #4C4C6D;
+    border-radius: 15px;
+    font-size: 1.8rem;
+    font-family: monospace;
+    padding: 15px 25px;
+    margin: 5%;
+}
+
+#ansbtn:hover {
+    background-color: #5ea87b;
+}
+
+#ansbtn:active{
+    background-color: #5ea87b;
+    box-shadow: 0 5px #2C2E43;
+    transform: translateY(4px);
+}
+
+@media screen and (max-width : 576px){
+    #ansDisplay{
+        font-size: 2rem;
+    }
+}
+
